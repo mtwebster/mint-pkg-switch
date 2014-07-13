@@ -1,0 +1,15 @@
+Source: pkgswitch
+Section: unknown
+Priority: optional
+Maintainer: Michael Webster <miketwebster@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Standards-Version: 3.9.4
+Homepage: https://github.com/mtwebster/mint-pkg-switch
+Vcs-Git: https://github.com/mtwebster/mint-pkg-switch.git
+
+Package: pkgswitch
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, dconf-cli
+Description: Simple stable/testing metapackage switcher
+ pkgswitch allows normal users to switch between stable and development
+ versions of supported meta-packages
