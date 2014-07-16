@@ -9,5 +9,8 @@ DEB_CONFIGURE_SCRIPT_ENV += PYTHON="/usr/bin/python"
 
 DEB_MAKE_EXTRA_ARGS += pythondir=/usr/share/pkgswitch
 
+config.status:
+	./autogen.sh 
+
 install/pkgswitch::
 	dh_python2 -p$(cdbs_curpkg)

@@ -41,6 +41,7 @@ class module(Impl.Distribution):
                 return True
             else:
                 return False
+        return False
 
     def get_arch_string(self):
         arch = ""
