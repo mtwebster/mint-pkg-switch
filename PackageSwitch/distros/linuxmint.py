@@ -16,9 +16,9 @@ try:
 except:
     print "Missing required library: python-launchpadlib"
     print "Updating package list..."
-    os.system("apt-get update")
+    os.system("sudo apt-get update")
     print "Installing..."
-    ret = os.system("apt-get install -y python-launchpadlib")
+    ret = os.system("sudo apt-get install -y python-launchpadlib")
     if ret > 0:
         pass
     else:
