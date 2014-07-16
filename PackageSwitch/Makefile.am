@@ -1,6 +1,6 @@
 ## Process this file with automake to produce Makefile.in
 
-appdir = $(pythondir)/PackageSwitch
+appdir = $(pkgdatadir)/PackageSwitch
 app_PYTHON = __init__.py Main.py util.py Impl.py
 nodist_app_PYTHON = config.py
 

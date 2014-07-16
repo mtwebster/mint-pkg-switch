@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-07-14 08:33-0400\n"
+"POT-Creation-Date: 2014-07-16 00:49-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,31 +21,31 @@ msgstr ""
 msgid "pkgswitch - metapackage testing tool"
 msgstr ""
 
-#: ../PackageSwitch/Main.py:126
+#: ../PackageSwitch/Main.py:116
 #, python-format
 msgid ""
 "Reset your settings for %s?  They will be saved so they can be restored "
 "later."
 msgstr ""
 
-#: ../PackageSwitch/Main.py:127
+#: ../PackageSwitch/Main.py:117
 msgid ""
-"This is recommended if you are confirming a bug or testing a fix to a bug."
+"This is recommended if you are confirming a bug or testing a fix to a bug.\n"
 msgstr ""
 
-#: ../PackageSwitch/Main.py:133
+#: ../PackageSwitch/Main.py:123
 #, python-format
 msgid ""
 "Restore your previously saved settings for %s?  They will overwrite your "
 "current settings."
 msgstr ""
 
-#: ../PackageSwitch/Main.py:134
+#: ../PackageSwitch/Main.py:124
 msgid ""
 "You probably want to do this if you had previously reset your settings for "
-"bug testing."
+"bug testing.\n"
 msgstr ""
 
-#: ../PackageSwitch/Main.py:139
+#: ../PackageSwitch/Main.py:129
 msgid "No previously saved settings found, moving on..."
 msgstr ""
