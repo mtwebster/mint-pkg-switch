@@ -133,7 +133,7 @@ class MetaPackage:
         status = self.distro.install_testing_packages(self.NAME, self.GIT_REPO_NAMES, skip_update)
 
         if status and self.settings_op == util.S_OP_SAVE:
-            print "Resetting your configuration to defaults...you should reboot after this is complete."
+            print "\nResetting your configuration to defaults...you should reboot after this is complete."
             status = self.save_and_reset_settings()
 
         if status:
